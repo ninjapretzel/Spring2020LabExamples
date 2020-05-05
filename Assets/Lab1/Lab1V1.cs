@@ -1,4 +1,6 @@
 using UnityEngine;
+// C# `namespace`s are like java `package`s, 
+// but don't actually require being in a folder of the same name.
 namespace Lab1 {
 
 	public class Lab1V1 : MonoBehaviour {
