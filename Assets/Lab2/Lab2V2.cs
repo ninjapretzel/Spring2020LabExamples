@@ -46,8 +46,10 @@ namespace Lab2 {
 		/// <summary> Animation for falling </summary>
 		public SpriteAnimAsset fall;
 
-		/// <summary> Track and skip first frame (to not phase through ground, first frame can be long!) </summary>
-		bool firstFrame;
+		/// <summary> Track and skip first few frames (to not phase through ground, first frame can be long!) </summary>
+		int frameNumber = 0;
+		/// <summary> Number of frames to skip </summary>
+		public int skipFrames = 2;
 
 		/// <summary>current facing direction (1.0 means right, -1.0 means left) </summary>
 		float facing;
@@ -77,7 +79,7 @@ namespace Lab2 {
 			// Face right on start
 			facing = 1;
 			// Don't phase through the ground if the first frame takes long to load!
-			firstFrame = true;
+			frameNumber = 0;
 		}
 
 		/// <summary> Called by Unity every frame, after every object has had its Update. </summary>
@@ -91,8 +93,8 @@ namespace Lab2 {
 			// This un-applies the Pixel-Perfect adjustment for the last frame.
 			ResetPixelPerfect();
 			// Check for first frame, unset it and exit if it is.
-			if (firstFrame) {
-				firstFrame = false;
+			if (frameNumber < skipFrames) {
+				frameNumber++;
 				return;
 			}
 
