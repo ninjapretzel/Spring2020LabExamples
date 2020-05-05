@@ -1,7 +1,7 @@
 ﻿# Lab2
 
 ### V1
-(Version with an implementation of base requirements)  
+##### (Version with an implementation of base requirements)  
 
 This is a straightforward implementation.  
 I used the "Automatic" setting to slice the sprite (as opposed to either of the "Grid by X" options.  
@@ -9,7 +9,7 @@ The animations were made in a straightforward manner.
 The script samples the Horizontal axis, flips the sprite if needed, and passes the absolute value of the Horizontal axis to the animator state machine.
 
 ### V2
-(Version with an implementation of the acheivements)  
+##### (Version with an implementation of the acheivements)  
 I personally have a high amount of distaste for Unity's animation system, and the 2d tooling in general, so I have an example implementation which uses some libraries I have developed for 2d projects I had worked on.
 
 (Some students did submit things close to this level- just not with the custom things or pixel-perfect 2d rendering)

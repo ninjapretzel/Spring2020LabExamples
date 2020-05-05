@@ -1,7 +1,7 @@
 ﻿# Lab1
 
 ### V1
-(Version with an implementation of base requirements)  
+##### (Version with an implementation of base requirements)  
 For V1, I implemented it with some things that you probably haven't seen before.  
 
 I track the target position to move to as a single non-public `Vector3`.   
@@ -26,7 +26,7 @@ Depending on how those to values compare, I either:
 Then finally, rotate the object by `rotateSpeed * Time.deltaTime`.
 
 ### V2
-(Version with implementation for the achievements)
+##### (Version with implementation for the achievements)
 
 Instead of using `Input.GetAxis`, I use `Input.GetAxisRaw`- this does not have "smoothing" applied to it.  
 For those of you who noticed your player-controlled objects continue to move after releasing buttons, that is why.  
