@@ -101,7 +101,7 @@ namespace Lab2 {
 			// Sample input
 			input = Vector3.zero;
 			input.x = Input.GetAxisRaw("Horizontal");
-
+			// Update facing direction if given movement input
 			if (input.x != 0) {
 				facing = Mathf.Sign(input.x);
 			}
@@ -186,10 +186,6 @@ namespace Lab2 {
 
 			// This example is based off of a system I wrote that could share animation sets between characters
 			// given all of the animations were named similarly
-
-			
-			
-			
 		}
 
 	}
