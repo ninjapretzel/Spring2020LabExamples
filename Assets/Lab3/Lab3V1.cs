@@ -21,17 +21,27 @@ namespace Lab3 {
 		/// <summary> Since the scaling is updated with <see cref="Time.deltaTime"/>, 
 		/// we need to keep track of what direction it is moving in. </summary>
 		bool growing;
-		// Replace the type with your GameManager type's name if you used something different.
+		/// <summary> Reference to V1 <see cref="GameManager"/> type. </summary>
 		GameManager sm;
 
 		/// <summary> Called by Unity, just before this object's first <see cref="Update"/>. </summary>
 		void Start() {
-			sm = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
 			transform.position = startPos;
 		}
 
 		/// <summary> Called by unity every frame. </summary>
 		void Update() {
+			// if we don't have a GameManager, try to find one:
+			if (sm == null) {
+				GameObject obj = GameObject.FindGameObjectWithTag("GameManager");
+				// If we found an object, try to get its GameManager
+				if (obj != null) {
+					sm = obj.GetComponent<GameManager>();
+				}
+			}
+			// if we still don't have one, exit!
+			// (Avoid causing Null Pointer Exceptions)
+			if (sm == null) { return; }
 			// We only need to access the game manager variables within update, 
 			// no reason to hold onto them as member variables between frames and waste more memory.
 			// so instead, we can just use local variables.
