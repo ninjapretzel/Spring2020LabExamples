@@ -12,7 +12,7 @@ namespace Lab3 {
 		public float scaling = 3;
 		/// <summary> Color speed for controlled objects </summary>
 		public float color = 4;
-
+		/// <summary> Array of all targets being controlled. Assigned in the inspector. </summary>
 		public Transform[] targets;
 		/// <summary> Holds a sequence of offsets to apply to positions </summary>
 		public Vector3[] positionOffsets;
