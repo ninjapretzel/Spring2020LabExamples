@@ -130,10 +130,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 67352449}
+  - component: {fileID: 67352445}
   - component: {fileID: 67352448}
   - component: {fileID: 67352447}
   - component: {fileID: 67352446}
-  - component: {fileID: 67352445}
   - component: {fileID: 67352450}
   m_Layer: 0
   m_Name: Tim_Player
@@ -166,7 +166,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.46, y: 1.2}
+  m_Size: {x: 0.46, y: 1.1}
   m_EdgeRadius: 0
 --- !u!114 &67352446
 MonoBehaviour:
@@ -198,6 +198,7 @@ MonoBehaviour:
   idle: {fileID: 11400000, guid: 4549a6dfcd67dc14d88f57a3d5e6c195, type: 2}
   jump: {fileID: 11400000, guid: b4140d6c35a0c7144afed6d902cac64c, type: 2}
   fall: {fileID: 11400000, guid: 8b325e1f504a40e43b728022ea8cc6f3, type: 2}
+  skipFrames: 2
 --- !u!114 &67352447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,7 +284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 67352444}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.71, y: 2.32, z: 0}
+  m_LocalPosition: {x: 3.71, y: 2.146, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1737,7 +1738,6 @@ MonoBehaviour:
   target: {fileID: 67352449}
   lastTarget: {fileID: 0}
   cam: {fileID: 624629170}
-  useSlerp: 0
   sets:
     worldOffset: {x: 0, y: 0, z: 0}
     moveDampening: 0
