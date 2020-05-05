@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 963d9779b5cc2df4ea330366a1988e79, type: 3}
+  m_Name: Tim_Walk
+  m_EditorClassIdentifier: 
+  data:
+    poses:
+    - {fileID: -1979353108114413978, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 832067166574394040, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 941432778239402158, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 8411013574482219306, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 778381441214210556, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -1543155599629338154, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -6167163242604242586, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -2393512871544626988, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -3501339216136553171, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -8592010413411056181, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 5900920055163082594, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -98360170279922592, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 1406687498405026704, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 2222914409386244306, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -5761909726245335662, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -281957122032768525, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 534539685970273845, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 5753056191706027335, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -7199077376575324932, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 9024559890612818008, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 4052339939606743516, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 2453988114683964959, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -3841272596112533655, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 2316933423611821220, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 7247820947903286220, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 9048117029734426432, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -708909514210938614, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    cues: []
+    animSpeed: 30
+    mirrorX: 0
+    mirrorY: 0
+    animateMirrorX: 0
+    animateMirrorY: 0

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 963d9779b5cc2df4ea330366a1988e79, type: 3}
+  m_Name: Tim_Idle
+  m_EditorClassIdentifier: 
+  data:
+    poses:
+    - {fileID: -5511821995362943977, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 6373962860509448935, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 7642635505061995322, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 1200504433282186452, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 4832112139322451087, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -2927214007718131787, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 4759434589616651809, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -5914614270840606881, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -5151845964418452141, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 2680249899413344737, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -4151179153772562704, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 8309993512813908200, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -3810135383476413836, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 5566708758643820615, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 579925438006548975, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -1664515080825088075, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -1044550832876519486, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: -3976047226235326029, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 6763232604485880301, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 6546314897256231707, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 2316387361331702274, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    - {fileID: 4303265302732255537, guid: e5e9f8330b5da8b4a927ae125f8fb41d, type: 3}
+    cues: []
+    animSpeed: 12
+    mirrorX: 0
+    mirrorY: 0
+    animateMirrorX: 0
+    animateMirrorY: 0

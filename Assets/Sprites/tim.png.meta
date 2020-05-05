@@ -1,0 +1,4604 @@
+fileFormatVersion: 2
+guid: e5e9f8330b5da8b4a927ae125f8fb41d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5511821995362943977
+    second: tim_0
+  - first:
+      213: 6373962860509448935
+    second: tim_1
+  - first:
+      213: 7642635505061995322
+    second: tim_2
+  - first:
+      213: 1200504433282186452
+    second: tim_3
+  - first:
+      213: 4832112139322451087
+    second: tim_4
+  - first:
+      213: -2927214007718131787
+    second: tim_5
+  - first:
+      213: 4759434589616651809
+    second: tim_6
+  - first:
+      213: -5914614270840606881
+    second: tim_7
+  - first:
+      213: -5151845964418452141
+    second: tim_8
+  - first:
+      213: 2680249899413344737
+    second: tim_9
+  - first:
+      213: -4151179153772562704
+    second: tim_10
+  - first:
+      213: 8309993512813908200
+    second: tim_11
+  - first:
+      213: -3810135383476413836
+    second: tim_12
+  - first:
+      213: 5566708758643820615
+    second: tim_13
+  - first:
+      213: 579925438006548975
+    second: tim_14
+  - first:
+      213: -1664515080825088075
+    second: tim_15
+  - first:
+      213: -1044550832876519486
+    second: tim_16
+  - first:
+      213: -3976047226235326029
+    second: tim_17
+  - first:
+      213: 6763232604485880301
+    second: tim_18
+  - first:
+      213: 6546314897256231707
+    second: tim_19
+  - first:
+      213: 2316387361331702274
+    second: tim_20
+  - first:
+      213: 4303265302732255537
+    second: tim_21
+  - first:
+      213: -1942558860825772383
+    second: tim_22
+  - first:
+      213: 979856189998068882
+    second: tim_23
+  - first:
+      213: -1979353108114413978
+    second: tim_24
+  - first:
+      213: 832067166574394040
+    second: tim_25
+  - first:
+      213: 941432778239402158
+    second: tim_26
+  - first:
+      213: 8411013574482219306
+    second: tim_27
+  - first:
+      213: 778381441214210556
+    second: tim_28
+  - first:
+      213: -1543155599629338154
+    second: tim_29
+  - first:
+      213: -6167163242604242586
+    second: tim_30
+  - first:
+      213: -2393512871544626988
+    second: tim_31
+  - first:
+      213: -3501339216136553171
+    second: tim_32
+  - first:
+      213: 4112080885714966195
+    second: tim_33
+  - first:
+      213: -3676018100806120978
+    second: tim_34
+  - first:
+      213: -7648276507335532877
+    second: tim_35
+  - first:
+      213: 1317803486929226502
+    second: tim_36
+  - first:
+      213: -2259875719230538179
+    second: tim_37
+  - first:
+      213: -9202907334753863782
+    second: tim_38
+  - first:
+      213: 4571548775902955430
+    second: tim_39
+  - first:
+      213: 705631467715980845
+    second: tim_40
+  - first:
+      213: 9013092266441764373
+    second: tim_41
+  - first:
+      213: -8592010413411056181
+    second: tim_42
+  - first:
+      213: 5900920055163082594
+    second: tim_43
+  - first:
+      213: -98360170279922592
+    second: tim_44
+  - first:
+      213: 1406687498405026704
+    second: tim_45
+  - first:
+      213: 2222914409386244306
+    second: tim_46
+  - first:
+      213: -5761909726245335662
+    second: tim_47
+  - first:
+      213: -281957122032768525
+    second: tim_48
+  - first:
+      213: 534539685970273845
+    second: tim_49
+  - first:
+      213: 5753056191706027335
+    second: tim_50
+  - first:
+      213: -1507055211546725414
+    second: tim_51
+  - first:
+      213: -5332232622535121264
+    second: tim_52
+  - first:
+      213: -8351053465197413414
+    second: tim_53
+  - first:
+      213: -1794087187830771209
+    second: tim_54
+  - first:
+      213: 4300554745686819823
+    second: tim_55
+  - first:
+      213: 3089433459748861164
+    second: tim_56
+  - first:
+      213: -4329735301811760896
+    second: tim_57
+  - first:
+      213: -2083875847923552943
+    second: tim_58
+  - first:
+      213: -4003726942867605764
+    second: tim_59
+  - first:
+      213: -7199077376575324932
+    second: tim_60
+  - first:
+      213: 9024559890612818008
+    second: tim_61
+  - first:
+      213: 4052339939606743516
+    second: tim_62
+  - first:
+      213: 2453988114683964959
+    second: tim_63
+  - first:
+      213: -3841272596112533655
+    second: tim_64
+  - first:
+      213: 2316933423611821220
+    second: tim_65
+  - first:
+      213: 7247820947903286220
+    second: tim_66
+  - first:
+      213: 9048117029734426432
+    second: tim_67
+  - first:
+      213: -708909514210938614
+    second: tim_68
+  - first:
+      213: 3289395124433377564
+    second: tim_69
+  - first:
+      213: 1468581926057215486
+    second: tim_70
+  - first:
+      213: 1861290332957801161
+    second: tim_71
+  - first:
+      213: 7288508405174755287
+    second: tim_72
+  - first:
+      213: 4504082133330590285
+    second: tim_73
+  - first:
+      213: -8001723065638279439
+    second: tim_74
+  - first:
+      213: -981600156026004438
+    second: tim_75
+  - first:
+      213: 4272986083582330581
+    second: tim_76
+  - first:
+      213: 8220561978103823277
+    second: tim_77
+  - first:
+      213: 3685507404864695112
+    second: tim_78
+  - first:
+      213: -1071892771183573976
+    second: tim_79
+  - first:
+      213: -3568519208833752058
+    second: tim_80
+  - first:
+      213: -3835075197509851555
+    second: tim_81
+  - first:
+      213: 1284972405641788040
+    second: tim_82
+  - first:
+      213: -6442398439054625898
+    second: tim_83
+  - first:
+      213: -8960993320149684912
+    second: tim_84
+  - first:
+      213: -5153050434092695464
+    second: tim_85
+  - first:
+      213: 3134378890493702089
+    second: tim_86
+  - first:
+      213: -3556988321393681315
+    second: tim_87
+  - first:
+      213: -5725591359863177241
+    second: tim_88
+  - first:
+      213: -135631051405906217
+    second: tim_89
+  - first:
+      213: -7818988533076897596
+    second: tim_90
+  - first:
+      213: 4601005066328529068
+    second: tim_91
+  - first:
+      213: 5474132818538442605
+    second: tim_92
+  - first:
+      213: 424910773810162416
+    second: tim_93
+  - first:
+      213: 2967809444870735543
+    second: tim_94
+  - first:
+      213: -7841019952447569726
+    second: tim_95
+  - first:
+      213: 624291504411910539
+    second: tim_96
+  - first:
+      213: -6158160456689055781
+    second: tim_97
+  - first:
+      213: 7511894073820853330
+    second: tim_98
+  - first:
+      213: 749660706749617555
+    second: tim_99
+  - first:
+      213: -473089961205235148
+    second: tim_100
+  - first:
+      213: 1255268321640807691
+    second: tim_101
+  - first:
+      213: 4964220186702985609
+    second: tim_102
+  - first:
+      213: 8422126461764764781
+    second: tim_103
+  - first:
+      213: -8681604940364394270
+    second: tim_104
+  - first:
+      213: -4783829625681958780
+    second: tim_105
+  - first:
+      213: 4719037357475083808
+    second: tim_106
+  - first:
+      213: 727113446084384777
+    second: tim_107
+  - first:
+      213: -4181882496992241019
+    second: tim_108
+  - first:
+      213: 1350971809276340579
+    second: tim_109
+  - first:
+      213: 3062849176957980684
+    second: tim_110
+  - first:
+      213: 5959774231141959729
+    second: tim_111
+  - first:
+      213: 4626041015152957805
+    second: tim_112
+  - first:
+      213: 2046022277761414996
+    second: tim_113
+  - first:
+      213: -7921858352699646274
+    second: tim_114
+  - first:
+      213: -3841554898371901858
+    second: tim_115
+  - first:
+      213: 539256154427312602
+    second: tim_116
+  - first:
+      213: -1379797445251939772
+    second: tim_117
+  - first:
+      213: -6951089237654238261
+    second: tim_118
+  - first:
+      213: -1052047887193387683
+    second: tim_119
+  - first:
+      213: -470156303532870990
+    second: tim_120
+  - first:
+      213: -5053569463399760734
+    second: tim_121
+  - first:
+      213: -3006538553207594098
+    second: tim_122
+  - first:
+      213: 7104730838807600256
+    second: tim_123
+  - first:
+      213: -3804381081743440039
+    second: tim_124
+  - first:
+      213: -6327262035063275306
+    second: tim_125
+  - first:
+      213: 898783251112682743
+    second: tim_126
+  - first:
+      213: 2313590106322722672
+    second: tim_127
+  - first:
+      213: 8647280196309924293
+    second: tim_128
+  - first:
+      213: 2156998830495969671
+    second: tim_129
+  - first:
+      213: -5250818264625379995
+    second: tim_130
+  - first:
+      213: -4341487076379333823
+    second: tim_131
+  - first:
+      213: 2672066388015766288
+    second: tim_132
+  - first:
+      213: 2356981900142073106
+    second: tim_133
+  - first:
+      213: -2298137171025828024
+    second: tim_134
+  - first:
+      213: -5711114278916474429
+    second: tim_135
+  - first:
+      213: 6344242431019016612
+    second: tim_136
+  - first:
+      213: -4608067824639226172
+    second: tim_137
+  - first:
+      213: -1065945213197689191
+    second: tim_138
+  - first:
+      213: 7264457668984257954
+    second: tim_139
+  - first:
+      213: -8076317542479053650
+    second: tim_140
+  - first:
+      213: -7833003371563752774
+    second: tim_141
+  - first:
+      213: 3946862377954666329
+    second: tim_142
+  - first:
+      213: 5559190548229333057
+    second: tim_143
+  - first:
+      213: 3434181182527919519
+    second: tim_144
+  - first:
+      213: 5656537773350215150
+    second: tim_145
+  - first:
+      213: 2059509856427974847
+    second: tim_146
+  - first:
+      213: -1546940872603029001
+    second: tim_147
+  - first:
+      213: 2194486351796417135
+    second: tim_148
+  - first:
+      213: -2396331621184007242
+    second: tim_149
+  - first:
+      213: -965777104226123479
+    second: tim_150
+  - first:
+      213: 8552948096462539143
+    second: tim_151
+  - first:
+      213: 8949317520901601564
+    second: tim_152
+  - first:
+      213: -5972748604247455228
+    second: tim_153
+  - first:
+      213: -428084600912195274
+    second: tim_154
+  - first:
+      213: -2629919753528300687
+    second: tim_155
+  - first:
+      213: -246522001739644106
+    second: tim_156
+  - first:
+      213: -7491890849071854059
+    second: tim_157
+  - first:
+      213: 2771229408453398456
+    second: tim_158
+  - first:
+      213: -1676950980731629188
+    second: tim_159
+  - first:
+      213: 827813319511400783
+    second: tim_160
+  - first:
+      213: -4114933931778009886
+    second: tim_161
+  - first:
+      213: -6383964300228761948
+    second: tim_162
+  - first:
+      213: 8560037897574590415
+    second: tim_163
+  - first:
+      213: -5454579078296542324
+    second: tim_164
+  - first:
+      213: 3259701871321261556
+    second: tim_165
+  - first:
+      213: -1582725191062873723
+    second: tim_166
+  - first:
+      213: -4598261672998927205
+    second: tim_167
+  - first:
+      213: -2177455508877315739
+    second: tim_168
+  - first:
+      213: 7986763368399014845
+    second: tim_169
+  - first:
+      213: -7057826008330733741
+    second: tim_170
+  - first:
+      213: -3596987619084446838
+    second: tim_171
+  - first:
+      213: -168918389819420240
+    second: tim_172
+  - first:
+      213: -6586883568611923428
+    second: tim_173
+  - first:
+      213: 2194936321080397472
+    second: tim_174
+  - first:
+      213: 6288446963693939129
+    second: tim_175
+  - first:
+      213: 3907713423147984783
+    second: tim_176
+  - first:
+      213: -53958581687480647
+    second: tim_177
+  - first:
+      213: -2369955498189172772
+    second: tim_178
+  - first:
+      213: 446174878558050223
+    second: tim_179
+  - first:
+      213: 1075624698449053547
+    second: tim_180
+  - first:
+      213: 3044159476733553148
+    second: tim_181
+  - first:
+      213: -9009598491494860664
+    second: tim_182
+  - first:
+      213: -2795763738848769559
+    second: tim_183
+  - first:
+      213: 3729594362707233571
+    second: tim_184
+  - first:
+      213: 8098886473767857958
+    second: tim_185
+  - first:
+      213: 4893801537604576437
+    second: tim_186
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tim_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1210
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cf43d19131283b0800000000000000
+      internalID: -5511821995362943977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eac230737dd47850800000000000000
+      internalID: 6373962860509448935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1210
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33220bdf78101a60800000000000000
+      internalID: 7642635505061995322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_3
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcf019eb6c09a010800000000000000
+      internalID: 1200504433282186452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84ea2b936c1f0340800000000000000
+      internalID: 4832112139322451087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7c9687e527067d0800000000000000
+      internalID: -2927214007718131787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_6
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ebecdea88ec0240800000000000000
+      internalID: 4759434589616651809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_7
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1210
+        width: 81
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fe61b58a11beda0800000000000000
+      internalID: -5914614270840606881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_8
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1210
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355fe491467f088b0800000000000000
+      internalID: -5151845964418452141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_9
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e11fcb3519223520800000000000000
+      internalID: 2680249899413344737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_10
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1210
+        width: 81
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f63164bd8c0466c0800000000000000
+      internalID: -4151179153772562704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_11
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1210
+        width: 81
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0d2195217035370800000000000000
+      internalID: 8309993512813908200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_12
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1210
+        width: 81
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47addb14e0eaf1bc0800000000000000
+      internalID: -3810135383476413836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_13
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748450f4f1ce04d40800000000000000
+      internalID: 5566708758643820615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_14
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9d7900d1f4c0800800000000000000
+      internalID: 579925438006548975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_15
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7d32c5a5476e8e0800000000000000
+      internalID: -1664515080825088075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_16
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1210
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf7e804d820181f0800000000000000
+      internalID: -1044550832876519486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_17
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1f01e1d1e32d8c0800000000000000
+      internalID: -3976047226235326029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_18
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de988bb7834dbdd50800000000000000
+      internalID: 6763232604485880301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_19
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 1210
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b133ec617be29da50800000000000000
+      internalID: 6546314897256231707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_20
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1210
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a616a4806752020800000000000000
+      internalID: 2316387361331702274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_21
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 1210
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131be9f3ef448bb30800000000000000
+      internalID: 4303265302732255537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_22
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 1210
+        width: 77
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae31391205aa05e0800000000000000
+      internalID: -1942558860825772383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_23
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 1210
+        width: 90
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2947dc76306299d00800000000000000
+      internalID: 979856189998068882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1034
+        width: 120
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66666c1d5dce784e0800000000000000
+      internalID: -1979353108114413978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_25
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1033
+        width: 119
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8babee4fda81c8b00800000000000000
+      internalID: 832067166574394040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_26
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1030
+        width: 119
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea06ed6bf14a01d00800000000000000
+      internalID: 941432778239402158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_27
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1030
+        width: 114
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a215004584ce9b470800000000000000
+      internalID: 8411013574482219306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_28
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1027
+        width: 106
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf16457fbcd5dca00800000000000000
+      internalID: 778381441214210556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_29
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1027
+        width: 104
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d930fa782c959ae0800000000000000
+      internalID: -1543155599629338154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_30
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1028
+        width: 102
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6695ab4b4b5d96aa0800000000000000
+      internalID: -6167163242604242586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_31
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1028
+        width: 100
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0e14689b888ced0800000000000000
+      internalID: -2393512871544626988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_32
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1027
+        width: 97
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d3908a88eb86fc0800000000000000
+      internalID: -3501339216136553171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_33
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1046
+        width: 100
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6d6b067cb011930800000000000000
+      internalID: 4112080885714966195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_34
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1054
+        width: 96
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee98b8183092cfcc0800000000000000
+      internalID: -3676018100806120978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_35
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1054
+        width: 94
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bedc44f90ddbd590800000000000000
+      internalID: -7648276507335532877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_36
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1057
+        width: 97
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b00321a47c94210800000000000000
+      internalID: 1317803486929226502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_37
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1055
+        width: 99
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ebbb6b10f43a0e0800000000000000
+      internalID: -2259875719230538179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_38
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1051
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97b823c984b84080800000000000000
+      internalID: -9202907334753863782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_39
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 1060
+        width: 124
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7411df367617f30800000000000000
+      internalID: 4571548775902955430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_40
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 1060
+        width: 124
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e6c8fc418eac900800000000000000
+      internalID: 705631467715980845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_41
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 1060
+        width: 124
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ee415b9afe41d70800000000000000
+      internalID: 9013092266441764373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_42
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 877
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc54d2a2d0c03c880800000000000000
+      internalID: -8592010413411056181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 879
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26759f7968744e150800000000000000
+      internalID: 5900920055163082594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_44
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 878
+        width: 101
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0641b6e32fd82aef0800000000000000
+      internalID: -98360170279922592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_45
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 877
+        width: 103
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b1a6ca3de858310800000000000000
+      internalID: 1406687498405026704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_46
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 883
+        width: 108
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d87099b0e069de10800000000000000
+      internalID: 2222914409386244306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_47
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 885
+        width: 118
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d4743c1a59900b0800000000000000
+      internalID: -5761909726245335662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_48
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 885
+        width: 119
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9685bcd79461cf0800000000000000
+      internalID: -281957122032768525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_49
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 883
+        width: 112
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5366b9423011b6700800000000000000
+      internalID: 534539685970273845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_50
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 881
+        width: 102
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745df771026f6df40800000000000000
+      internalID: 5753056191706027335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_51
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 885
+        width: 101
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad33bd2154dd51be0800000000000000
+      internalID: -1507055211546725414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_52
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 883
+        width: 98
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0966b026eaa1006b0800000000000000
+      internalID: -5332232622535121264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_53
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 878
+        width: 97
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbfc928e191b1c80800000000000000
+      internalID: -8351053465197413414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_54
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 874
+        width: 92
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f17449453f1a17e0800000000000000
+      internalID: -1794087187830771209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_55
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 876
+        width: 95
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe388c181c3aeab30800000000000000
+      internalID: 4300554745686819823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_56
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 878
+        width: 95
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce47985fc5fdfda20800000000000000
+      internalID: 3089433459748861164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_57
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 878
+        width: 97
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0019a04dea0b9e3c0800000000000000
+      internalID: -4329735301811760896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_58
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 879
+        width: 102
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d208805f59413e0800000000000000
+      internalID: -2083875847923552943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_59
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 881
+        width: 105
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf637b0ee87ef68c0800000000000000
+      internalID: -4003726942867605764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_60
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 738
+        width: 104
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc3da2b44db71c90800000000000000
+      internalID: -7199077376575324932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_61
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 738
+        width: 104
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8501736086dad3d70800000000000000
+      internalID: 9024559890612818008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_62
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 736
+        width: 98
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9436174bdcc3830800000000000000
+      internalID: 4052339939606743516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_63
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 734
+        width: 95
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ea4c240315e0220800000000000000
+      internalID: 2453988114683964959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 736
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967154ffcee01bac0800000000000000
+      internalID: -3841272596112533655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_65
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 736
+        width: 105
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acbc925ca6672020800000000000000
+      internalID: 2316933423611821220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_66
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 736
+        width: 107
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb096360ce659460800000000000000
+      internalID: 7247820947903286220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_67
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 736
+        width: 110
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047ab73ef7e519d70800000000000000
+      internalID: 9048117029734426432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_68
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 737
+        width: 114
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01ff838d827926f0800000000000000
+      internalID: -708909514210938614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_69
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 706
+        width: 108
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19d0cd007746ad20800000000000000
+      internalID: 3289395124433377564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_70
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 706
+        width: 120
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5033a1b73716410800000000000000
+      internalID: 1468581926057215486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_71
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 706
+        width: 126
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca71df32b1a4d910800000000000000
+      internalID: 1861290332957801161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_72
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 707
+        width: 116
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfd3e047cbf52560800000000000000
+      internalID: 7288508405174755287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_73
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 707
+        width: 109
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a7a5c26d6b18e30800000000000000
+      internalID: 4504082133330590285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_74
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 796
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6a499444b24f090800000000000000
+      internalID: -8001723065638279439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_75
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 796
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c1a9cdbd7a062f0800000000000000
+      internalID: -981600156026004438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_76
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 796
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6cc1a2432bc4b30800000000000000
+      internalID: 4272986083582330581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_77
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 768
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabf5fe809d451270800000000000000
+      internalID: 8220561978103823277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_78
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 783
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b2804457d852330800000000000000
+      internalID: 3685507404864695112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_79
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 768
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8244b48243fdf11f0800000000000000
+      internalID: -1071892771183573976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_80
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 768
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6046e47bfa21a7ec0800000000000000
+      internalID: -3568519208833752058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_81
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 768
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56a38d4d6317cac0800000000000000
+      internalID: -3835075197509851555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_82
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 768
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a3578489325d110800000000000000
+      internalID: 1284972405641788040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_83
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 734
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6933e92c0c00896a0800000000000000
+      internalID: -6442398439054625898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_84
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 738
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d64dd7d0824a380800000000000000
+      internalID: -8960993320149684912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_85
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 738
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8508b36aeefac78b0800000000000000
+      internalID: -5153050434092695464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_86
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 733
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf2c578efc8f7b20800000000000000
+      internalID: 3134378890493702089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_87
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 738
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cdd19a7f903aec0800000000000000
+      internalID: -3556988321393681315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_88
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 738
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef3f426efc9a80b0800000000000000
+      internalID: -5725591359863177241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_89
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 738
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de207007442e1ef0800000000000000
+      internalID: -135631051405906217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_90
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 738
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0591f1b5f5d7390800000000000000
+      internalID: -7818988533076897596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_91
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 745
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8d84c0bbd0adf30800000000000000
+      internalID: 4601005066328529068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_92
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 738
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6faa469bc608fb40800000000000000
+      internalID: 5474132818538442605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_93
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 738
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fae036f81695e500800000000000000
+      internalID: 424910773810162416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_94
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 738
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6c19a47f6cf2920800000000000000
+      internalID: 2967809444870735543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_95
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 738
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0cc9195e91f2390800000000000000
+      internalID: -7841019952447569726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_96
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 549
+        width: 102
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8124ccc0dde9a800800000000000000
+      internalID: 624291504411910539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_97
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 544
+        width: 99
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7013521b1d98aa0800000000000000
+      internalID: -6158160456689055781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_98
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 553
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25434744cdb9f3860800000000000000
+      internalID: 7511894073820853330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_99
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 553
+        width: 107
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39511efd074576a00800000000000000
+      internalID: 749660706749617555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_100
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 543
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4320f83df2f3f69f0800000000000000
+      internalID: -473089961205235148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_101
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 543
+        width: 98
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d733943eb9b6110800000000000000
+      internalID: 1255268321640807691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_102
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 553
+        width: 102
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989314f45f374e440800000000000000
+      internalID: 4964220186702985609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_103
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 554
+        width: 107
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6408e6056761e470800000000000000
+      internalID: 8422126461764764781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_104
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 545
+        width: 122
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0dd49cd4eb48780800000000000000
+      internalID: -8681604940364394270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_105
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 542
+        width: 128
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488ac3f1d4c6c9db0800000000000000
+      internalID: -4783829625681958780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_106
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 544
+        width: 129
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026b91e59736d7140800000000000000
+      internalID: 4719037357475083808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_107
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 548
+        width: 117
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9081549a3d9371a00800000000000000
+      internalID: 727113446084384777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_108
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 548
+        width: 114
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a9a5a8608f6f5c0800000000000000
+      internalID: -4181882496992241019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_109
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 549
+        width: 117
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369ab79e3bd9fb210800000000000000
+      internalID: 1350971809276340579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_110
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 545
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c009d29491d618a20800000000000000
+      internalID: 3062849176957980684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_111
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 545
+        width: 111
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1384eb4461f55b250800000000000000
+      internalID: 5959774231141959729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_112
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 416
+        width: 87
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6954902bcff23040800000000000000
+      internalID: 4626041015152957805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_113
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 370
+        width: 106
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457318cdb6ee46c10800000000000000
+      internalID: 2046022277761414996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_114
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 370
+        width: 104
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe506eccc7ef0290800000000000000
+      internalID: -7921858352699646274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_115
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 370
+        width: 104
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5681616c2e00bac0800000000000000
+      internalID: -3841554898371901858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_116
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 370
+        width: 104
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad945978d92db7700800000000000000
+      internalID: 539256154427312602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_117
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 371
+        width: 103
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44244c5b889f9dce0800000000000000
+      internalID: -1379797445251939772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_118
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 370
+        width: 106
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb0493ba25c88f90800000000000000
+      internalID: -6951089237654238261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_119
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 370
+        width: 105
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d432545006661f0800000000000000
+      internalID: -1052047887193387683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_120
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 370
+        width: 105
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2330b355ba979f0800000000000000
+      internalID: -470156303532870990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_121
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 370
+        width: 107
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acbb46195d1ed9b0800000000000000
+      internalID: -5053569463399760734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_122
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 370
+        width: 109
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e836b8c7d11a646d0800000000000000
+      internalID: -3006538553207594098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_123
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 371
+        width: 111
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cd3ef2e03199260800000000000000
+      internalID: 7104730838807600256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_124
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 371
+        width: 114
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9574778009f143bc0800000000000000
+      internalID: -3804381081743440039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_125
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 370
+        width: 114
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d00d3fc3bc0138a0800000000000000
+      internalID: -6327262035063275306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_126
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 370
+        width: 114
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f464acda9e197c00800000000000000
+      internalID: 898783251112682743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_127
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 370
+        width: 115
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f593b91f58b1020800000000000000
+      internalID: 2313590106322722672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_128
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 467
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9b256f58f410870800000000000000
+      internalID: 8647280196309924293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_129
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 467
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78135a012033fed10800000000000000
+      internalID: 2156998830495969671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_130
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 469
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5650fdcbb985127b0800000000000000
+      internalID: -5250818264625379995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_131
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 469
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14be5779180ffb3c0800000000000000
+      internalID: -4341487076379333823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_132
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 467
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bd0f10936151520800000000000000
+      internalID: 2672066388015766288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_133
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 448
+        width: 124
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2155ef3ec8ea5b020800000000000000
+      internalID: 2356981900142073106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_134
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 435
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84762e34b606b10e0800000000000000
+      internalID: -2298137171025828024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_135
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 435
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9b58572db0eb0b0800000000000000
+      internalID: -5711114278916474429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_136
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 435
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a169d5b0e64b0850800000000000000
+      internalID: 6344242431019016612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_137
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 432
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cec8736abadc00c0800000000000000
+      internalID: -4608067824639226172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_138
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 433
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ed259e9700531f0800000000000000
+      internalID: -1065945213197689191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_139
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 432
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad3badd2c980d460800000000000000
+      internalID: 7264457668984257954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_140
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 435
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacb74b3cf72bef80800000000000000
+      internalID: -8076317542479053650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_141
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 416
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab261814fe49b4390800000000000000
+      internalID: -7833003371563752774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_142
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 419
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957675fdb6216c630800000000000000
+      internalID: 3946862377954666329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_143
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 419
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1402be98956362d40800000000000000
+      internalID: 5559190548229333057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_144
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 416
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9558e62799a8af20800000000000000
+      internalID: 3434181182527919519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_145
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 419
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed5e1f922f008e40800000000000000
+      internalID: 5656537773350215150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_146
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 419
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb02ecb7d49d49c10800000000000000
+      internalID: 2059509856427974847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_147
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 211
+        width: 108
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1b6ffe879288ae0800000000000000
+      internalID: -1546940872603029001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_148
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 214
+        width: 109
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62b447c5b1647e10800000000000000
+      internalID: 2194486351796417135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_149
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 214
+        width: 111
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b39a4b36158ebed0800000000000000
+      internalID: -2396331621184007242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_150
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 211
+        width: 119
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921856237ded892f0800000000000000
+      internalID: -965777104226123479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_151
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 211
+        width: 113
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789c0007afc22b670800000000000000
+      internalID: 8552948096462539143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_152
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 211
+        width: 116
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19f487aedc523c70800000000000000
+      internalID: 8949317520901601564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_153
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 210
+        width: 111
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ace171ac88c1da0800000000000000
+      internalID: -5972748604247455228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_154
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 210
+        width: 105
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63150d4d2532f0af0800000000000000
+      internalID: -428084600912195274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_155
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 209
+        width: 95
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ba9270be5a08bd0800000000000000
+      internalID: -2629919753528300687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_156
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 205
+        width: 92
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6338df8ab8d249cf0800000000000000
+      internalID: -246522001739644106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_157
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 206
+        width: 112
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e821d67f4770890800000000000000
+      internalID: -7491890849071854059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_158
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 206
+        width: 113
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf0bf1e672657620800000000000000
+      internalID: 2771229408453398456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_159
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 206
+        width: 117
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c719fb7c7f54ab8e0800000000000000
+      internalID: -1676950980731629188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_160
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 208
+        width: 115
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4160d104dbfc7b00800000000000000
+      internalID: 827813319511400783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_161
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 208
+        width: 109
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e49b221461d4e6c0800000000000000
+      internalID: -4114933931778009886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_162
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 208
+        width: 107
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6e61aea4a9767a0800000000000000
+      internalID: -6383964300228761948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_163
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 208
+        width: 108
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7a0d46d1d5bc670800000000000000
+      internalID: 8560037897574590415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_164
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 209
+        width: 109
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c836bd65a317d44b0800000000000000
+      internalID: -5454579078296542324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_165
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 32
+        width: 82
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5a7c1d499cc3d20800000000000000
+      internalID: 3259701871321261556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_166
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 32
+        width: 84
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58992a903d7090ae0800000000000000
+      internalID: -1582725191062873723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_167
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 32
+        width: 79
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b940b9cfe51bf20c0800000000000000
+      internalID: -4598261672998927205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_168
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 32
+        width: 77
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561762750cf18c1e0800000000000000
+      internalID: -2177455508877315739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_169
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 32
+        width: 81
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb8686c7fea6de60800000000000000
+      internalID: 7986763368399014845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_170
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 36
+        width: 81
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357feeea3a09d0e90800000000000000
+      internalID: -7057826008330733741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_171
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 36
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a835efe61dee41ec0800000000000000
+      internalID: -3596987619084446838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_172
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 36
+        width: 83
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b158c29e91e7adf0800000000000000
+      internalID: -168918389819420240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_173
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 36
+        width: 84
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a670c0b40b694a0800000000000000
+      internalID: -6586883568611923428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_174
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 36
+        width: 89
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae899a64faf57e10800000000000000
+      internalID: 2194936321080397472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_175
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 36
+        width: 87
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b96cd3223d054750800000000000000
+      internalID: 6288446963693939129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_176
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 36
+        width: 84
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87e2c687acfa3630800000000000000
+      internalID: 3907713423147984783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_177
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 36
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be0fe1b4fc404ff0800000000000000
+      internalID: -53958581687480647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_178
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 36
+        width: 82
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf43fce70a3c1fd0800000000000000
+      internalID: -2369955498189172772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_179
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 45
+        width: 86
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7d72820b1213600800000000000000
+      internalID: 446174878558050223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_180
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 45
+        width: 84
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6741bed6f26dee00800000000000000
+      internalID: 1075624698449053547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_181
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 45
+        width: 86
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9a75a5ae60f3a20800000000000000
+      internalID: 3044159476733553148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_182
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 45
+        width: 85
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888bd8928e977f280800000000000000
+      internalID: -9009598491494860664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_183
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 45
+        width: 85
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9400e21b37339d0800000000000000
+      internalID: -2795763738848769559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_184
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 45
+        width: 86
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bc679005e22c330800000000000000
+      internalID: 3729594362707233571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_185
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 45
+        width: 85
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f26219656056070800000000000000
+      internalID: 8098886473767857958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim_186
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 45
+        width: 86
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b46e2ae1964ae340800000000000000
+      internalID: 4893801537604576437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
