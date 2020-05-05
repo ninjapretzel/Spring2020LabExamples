@@ -1,10 +1,8 @@
 using UnityEngine;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-
+// C# `namespace`s are like java `package`s, 
+// but don't actually require being in a folder of the same name.
 namespace Lab3 {
-	// Implementation for achievement #2
+	/// <summary> Implementation for achievement #2 </summary>
 	public class GameManagerV2 : MonoBehaviour {
 		/// <summary> Movement speed for controlled objects </summary>
 		public float speed = 5;
@@ -28,6 +26,7 @@ namespace Lab3 {
 		/// <summary> Cached starting scales </summary>
 		Vector3[] startingScales;
 
+		/// <summary> Called by Unity, just before this object's first <see cref="Update"/>. </summary>
 		void Start() {
 			// Upon start, initialize `startingPositions` and `startingScales`
 			startingPositions = new Vector3[targets.Length];
@@ -39,6 +38,7 @@ namespace Lab3 {
 			}
 		}
 
+		/// <summary> Called by unity every frame. </summary>
 		void Update() {
 			// In this implementation, all objects will get the same color:
 			float colorPos = Time.time * color;

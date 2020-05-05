@@ -1,9 +1,8 @@
 using UnityEngine;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-
+// C# `namespace`s are like java `package`s, 
+// but don't actually require being in a folder of the same name.
 namespace Lab2 {
+
 	// For my implementation of V2, I avoid using the built-in Animator/Animation types, as well as Rigidbody2D.
 
 	// Most things you want characters to do will not be accurate to IRL physics, so for characters,
@@ -17,6 +16,7 @@ namespace Lab2 {
 	// this is a type I wrote to handle moving to exact positions before the camera renders,
 	// in order to never have misaligned pixels (which would never happen on an old console)
 	// I expanded it with a little bit of extra code that handles checking for collisions using casts.
+	/// <summary> Advanced implementation of Lab2 with most achievements </summary>
 	public class Lab2V2 : PixelPerfectBehavior {
 
 		/// <summary> Movement speed. </summary>

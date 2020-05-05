@@ -1,10 +1,9 @@
 using UnityEngine;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-
+// C# `namespace`s are like java `package`s, 
+// but don't actually require being in a folder of the same name.
 namespace Lab3 {
-	// Implementation of basic stuff, and Achievement #1.
+
+	/// <summary> Implementation of basic stuff, and Achievement #1. </summary>
 	public class GameManager : MonoBehaviour {
 		/// <summary> Movement speed for other objects </summary>
 		public float speed = 2.0f;

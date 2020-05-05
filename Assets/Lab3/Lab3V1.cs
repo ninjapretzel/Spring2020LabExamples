@@ -1,8 +1,9 @@
 using UnityEngine;
-
+// C# `namespace`s are like java `package`s, 
+// but don't actually require being in a folder of the same name.
 namespace Lab3 {
-	// Implementation of basic stuff, and Achievement 1.
-	// Achievement 1 is fairly trivial, and works for both 3d meshes and 2d sprites.
+	/// <summary> Implementation of basic stuff, and Achievement 1.
+	/// Achievement 1 is fairly trivial, and works for both 3d meshes and 2d sprites.</summary>
 	public class Lab3V1 : MonoBehaviour {
 		/// <summary> Position one for moving. </summary>
 		public Vector3 startPos = new Vector3(-3, 0, 0);
@@ -17,17 +18,19 @@ namespace Lab3 {
 		/// <summary> Color two for blending </summary>
 		public Color endColor = Color.red;
 
-		/// <summary></summary>
-		bool movingRight;
+		/// <summary> Since the scaling is updated with <see cref="Time.deltaTime"/>, 
+		/// we need to keep track of what direction it is moving in. </summary>
 		bool growing;
 		// Replace the type with your GameManager type's name if you used something different.
 		GameManager sm;
 
+		/// <summary> Called by Unity, just before this object's first <see cref="Update"/>. </summary>
 		void Start() {
 			sm = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
 			transform.position = startPos;
 		}
 
+		/// <summary> Called by unity every frame. </summary>
 		void Update() {
 			// We only need to access the game manager variables within update, 
 			// no reason to hold onto them as member variables between frames and waste more memory.
