@@ -22,7 +22,7 @@ namespace Lab3 {
 		/// we need to keep track of what direction it is moving in. </summary>
 		bool growing;
 		/// <summary> Reference to V1 <see cref="GameManager"/> type. </summary>
-		GameManager sm;
+		GameManager gameManager;
 
 		/// <summary> Called by Unity, just before this object's first <see cref="Update"/>. </summary>
 		void Start() {
@@ -32,23 +32,23 @@ namespace Lab3 {
 		/// <summary> Called by unity every frame. </summary>
 		void Update() {
 			// if we don't have a GameManager, try to find one:
-			if (sm == null) {
+			if (gameManager == null) {
 				GameObject obj = GameObject.FindGameObjectWithTag("GameManager");
 				// If we found an object, try to get its GameManager
 				if (obj != null) {
-					sm = obj.GetComponent<GameManager>();
+					gameManager = obj.GetComponent<GameManager>();
 				}
 			}
 			// if we still don't have one, exit!
 			// (Avoid causing Null Pointer Exceptions)
-			if (sm == null) { return; }
+			if (gameManager == null) { return; }
 			// We only need to access the game manager variables within update, 
 			// no reason to hold onto them as member variables between frames and waste more memory.
 			// so instead, we can just use local variables.
-			float speed = sm.speed;
-			float rotate = sm.rotate;
-			float scale = sm.scale;
-			float color = sm.color;
+			float speed = gameManager.speed;
+			float rotate = gameManager.rotate;
+			float scale = gameManager.scale;
+			float color = gameManager.color;
 
 			// Just a note for all of this: `Time.time` holds:
 			// the accumulated time from the start of the game till now (in seconds)
