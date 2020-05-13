@@ -15,6 +15,10 @@ In Lab4 scenes:
 - Right-click and drag to rotate camera.
 
 ### V2
-##### (Extra version)
+#### (Version using just `Transform.Rotate()`)
+It is possible to rotate objects in a scene just by rotating the parents, so my v2 script rotates the parent objects, and all of the children objects automatically rotate around their parents
+
+### Extra
+##### (More realistic version)
 For this one, I again didn't do the achievables, but I did make it so that the planets realistically orbit their target, based on Kepler's Laws of Planetary Motion (Period^2 ~= Radius^3)
 
