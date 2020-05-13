@@ -1,7 +1,7 @@
 using UnityEngine;
 using System;
 
-public class FollowCam : MonoBehaviour {
+public class PixelFollowCam : MonoBehaviour {
 	
 	/// <summary> Settings struct to tell a camera how to move </summary>
 	[Serializable] public struct Settings {
@@ -66,7 +66,7 @@ public class FollowCam : MonoBehaviour {
 		// If we have a target...
 		if (target != null) {
 			// Grab settings from the target
-			FollowCamSettings setCheck = target.GetComponent<FollowCamSettings>();
+			PixelFollowCamSettings setCheck = target.GetComponent<PixelFollowCamSettings>();
 			// Copy them if they exist.
 			if (setCheck != null) { sets = setCheck.settings; }
 
