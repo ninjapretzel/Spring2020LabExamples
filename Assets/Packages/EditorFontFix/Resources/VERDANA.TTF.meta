@@ -16,7 +16,7 @@ TrueTypeFontImporter:
   - {instanceID: 0}
   - {instanceID: 0}
   customCharacters: 
-  fontRenderingMode: 3
+  fontRenderingMode: 2
   ascentCalculationMode: 0
   useLegacyBoundsCalculation: 1
   shouldRoundAdvanceValue: 1
