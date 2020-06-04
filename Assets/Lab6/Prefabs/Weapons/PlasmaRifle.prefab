@@ -10540,7 +10540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   info:
     offset: {x: 0.1, y: -0.08, z: 0.07}
-    recoilOffset: {x: 0, y: 0, z: -0.02}
+    recoilOffset: {x: 0, y: 0, z: -0.03}
     recoilRotation: {x: -3, y: 0, z: 0}
     shakeOffset: {x: 0.005, y: 0.005, z: 0.005}
     recoilScale: 0.3
@@ -10579,12 +10579,12 @@ MonoBehaviour:
     target: {x: 0, y: 0, z: 0}
     velocity: {x: 0, y: 0, z: 0}
     strength: 333
-    dampening: 0.0001
+    dampening: 3
   recoilSpring:
     target: 0
     velocity: 0
-    strength: 222
-    dampening: 0.001
+    strength: 111
+    dampening: 0.1
   owner: {fileID: 0}
   bobSpeed: 1
   recoil: 0
@@ -10594,8 +10594,8 @@ MonoBehaviour:
   sprint: 0
   crouch: 0
   disabled: 0
-  initialOffset: {x: 1, y: 1, z: -1.4}
-  initialRotation: {x: -45, y: -122, z: 0}
+  initialOffset: {x: 1, y: 1.5, z: -1}
+  initialRotation: {x: -45, y: -33, z: -111}
 --- !u!114 &6656432523766602798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10647,7 +10647,7 @@ MonoBehaviour:
   fanAxis: {x: 0, y: 1, z: 0}
   curRecoil: 0
   absorbRecoil: 7
-  kickAmount: 5
+  kickAmount: 1
   recoilAmount: 0
   playSoundOnlyOnFirst: 0
   projectileSettings:

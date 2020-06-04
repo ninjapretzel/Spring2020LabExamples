@@ -133,9 +133,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b9bb2c8c80e0e6c4ea10338e985a0896, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 899de2909bb2ac342813639789c4350d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.55
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -10091,15 +10091,15 @@ MonoBehaviour:
   holdFireTime: 0.08
   tapFireTime: 0.08
   burstTime: 0.08
-  spread: 3
+  spread: 1
   fanAxis: {x: 0, y: 1, z: 0}
   curRecoil: 0
   absorbRecoil: 11
-  kickAmount: 5
+  kickAmount: 2
   recoilAmount: 3
   playSoundOnlyOnFirst: 0
   projectileSettings:
-    speed: 2001
+    speed: 5001
     radius: 0.01
     proxy: 0.01
     pushForward: 0

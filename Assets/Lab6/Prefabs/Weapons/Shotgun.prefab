@@ -10295,10 +10295,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   info:
-    offset: {x: 0.07, y: -0.06, z: 0.12}
-    recoilOffset: {x: 0, y: 0, z: -0.005}
+    offset: {x: 0.03, y: -0.07, z: 0.15}
+    recoilOffset: {x: 0, y: 0, z: -0.08}
     recoilRotation: {x: -1, y: 0, z: 0}
-    shakeOffset: {x: 0.001, y: 0.001, z: 0.001}
+    shakeOffset: {x: 0.01, y: 0.01, z: 0.01}
     recoilScale: 0.3
     bobScale: 0.5
     shakeScale: 1
@@ -10308,20 +10308,20 @@ MonoBehaviour:
     bobRotationOffset: {x: 0, y: 0.5, z: 0}
   settings:
     recoilDampening: 5
-    lookDampening: 21
+    lookDampening: 15
     rotationDampening: 5
     offsetDampening: 5
     shakeDampening: 5
     exitDampening: 3
     bobDampening: 5
     bobSpeedScale: 5
-    normalBobSpeed: 1.4
-    sprintBobSpeed: 2
+    normalBobSpeed: 1
+    sprintBobSpeed: 1.5
     crouchBobSpeed: 0.75
     airBobSpeed: 0.3
-    airRotation: {x: -20, y: 0, z: 0}
-    sprintRotation: {x: 15, y: -35, z: 15}
-    sprintOffset: {x: -0.05, y: -0.05, z: 0.05}
+    airRotation: {x: -15, y: 0, z: 0}
+    sprintRotation: {x: -90, y: 25, z: 3}
+    sprintOffset: {x: 0.03, y: -0.16, z: 0.05}
     disabledRotation: {x: 75, y: 0, z: 0}
     disabledOffset: {x: 0, y: -0.02, z: 0}
     reloadRotation: {x: 90, y: 0, z: 0}
@@ -10335,12 +10335,12 @@ MonoBehaviour:
     target: {x: 0, y: 0, z: 0}
     velocity: {x: 0, y: 0, z: 0}
     strength: 333
-    dampening: 0.0001
+    dampening: 1
   recoilSpring:
     target: 0
     velocity: 0
-    strength: 222
-    dampening: 0.001
+    strength: 111
+    dampening: 3
   owner: {fileID: 0}
   bobSpeed: 1
   recoil: 0
@@ -10430,7 +10430,7 @@ MonoBehaviour:
   bursts: 1
   pellets: 12
   holdFireTime: 1
-  tapFireTime: 0.1
+  tapFireTime: 0.3
   burstTime: 0.5
   spread: 5
   fanAxis: {x: 0, y: 1, z: 0}
@@ -10440,7 +10440,7 @@ MonoBehaviour:
   recoilAmount: 0
   playSoundOnlyOnFirst: 0
   projectileSettings:
-    speed: 1000
+    speed: 2000
     radius: 0.01
     proxy: 0.01
     pushForward: 0
