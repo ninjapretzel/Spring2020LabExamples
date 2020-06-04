@@ -18,6 +18,7 @@ Mouse - Look around
 Left click - Shoot
 Left Shift - sprint
 C - Crouch
+1,2 (and maybe other digits later) - switch weapons
 
 Left Control - release/capture mouse
 ```

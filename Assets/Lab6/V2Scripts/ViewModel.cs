@@ -133,6 +133,10 @@ namespace Lab6 {
 		/// <summary> current disabled position value </summary>
 		public float disabled = 0;
 
+		/// <summary> Initial offset to spawn with </summary>
+		public Vector3 initialOffset;
+		/// <summary> Initial rotation to spawn with </summary>
+		public Vector3 initialRotation;
 		/// <summary> Current bob animation time </summary>
 		float bobTime;
 		/// <summary> Time of the last trigger pull </summary>
@@ -147,21 +151,30 @@ namespace Lab6 {
 		/// <summary> Offset from owner </summary>
 		Vector3 offsetPosition;
 	
-		// Vector3 initialOffset;
-		// Quaternion initialRotation;
 	
 		void Awake() {
 			// Find the attached model
 			model = transform.Find("Model");
 			// Apply viewmodel layers (typically viewmodels are rendered in a separate pass)
 			SetViewmodelLayers();
-			// Start with identity offset rotation
-			rotation = Quaternion.identity;
+			
 			
 			//ChangeModelLayer(LAYER_VIEWMODELS);
 			//DontDestroyOnLoad(gameObject);
 		}
-	
+		
+		void Start() {
+			if (owner != null) { 
+				transform.position = owner.position;
+				transform.rotation = owner.rotation;
+
+				offset = initialOffset;
+				offsetPosition = Vector3.zero;
+				shakeOffset = Vector3.zero;
+				rotation = Quaternion.Euler(initialRotation);
+
+			}
+		}
 
 		void LateUpdate() {
 			First();

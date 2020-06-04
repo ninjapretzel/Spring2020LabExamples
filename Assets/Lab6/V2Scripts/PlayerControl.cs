@@ -253,7 +253,8 @@ namespace Lab6 {
 
 			ammoBox = new Dictionary<string, float>();
 			// Ammo for demo....
-			ammoBox["energy"] = 100;
+			ammoBox["energy"] = 10000;
+			ammoBox["556"] = 100000;
 
 		}
 	
@@ -328,6 +329,18 @@ namespace Lab6 {
 			// SpawnWeapon(initialAltWeaponPrefab, ref altWeapon, ref altWeaponViewModel);
 
 			spawnedInitialWeapon = true;
+		}
+
+		/// <summary> Give the player a weapon, replacing their current weapon with the new weapon. </summary>
+		/// <param name="prefab"> Prefab to spawn </param>
+		/// <param name="isPrimary"> If this should replace the primary or secondary weapon </param>
+		public void GiveWeapon(AWeapon prefab, bool isPrimary) {
+			// can't use ternary with ref...
+			if (isPrimary) {
+				SpawnWeapon(prefab, ref weapon, ref weaponViewModel);
+			} else {
+				SpawnWeapon(prefab, ref altWeapon, ref altWeaponViewModel);
+			}
 		}
 
 		/// <summary> Spawn a weapon and assign it to be the current weapon </summary>

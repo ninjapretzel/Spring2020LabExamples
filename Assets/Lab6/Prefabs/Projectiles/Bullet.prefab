@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &120159784444446259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 120159784444446257}
+  - component: {fileID: 8266922019031160313}
+  m_Layer: 0
+  m_Name: Bullet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &120159784444446257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120159784444446259}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.8, y: -0.706, z: 8.591}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8266922019031160313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120159784444446259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8332b57cb70914f9b1f557c1d17d87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawDebug: 0
+  faceAlongVelocity: 0
+  useChronos: 0
+  maxDistance: 9001
+  minBounceAngle: -1
+  restitution: 0.98
+  gravity: 111
+  radius: 0.01
+  proxy: 0.01
+  force: 5
+  mass: 0.001
+  ignoreSourceRadius: 0
+  killVelocity: 0.1
+  minStepVelocity: -1
+  maxTime: 5
+  maxBounces: 1
+  damage: 1
+  decalTime: 4
+  decal: {fileID: 6208781214484441255, guid: 585350c1368f42742bee3b93989e1af9, type: 3}
+  sourceObject: {fileID: 0}
+  hitboxLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  surfaceLayerMask:
+    serializedVersion: 2
+    m_Bits: 1

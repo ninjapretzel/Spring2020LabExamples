@@ -21,10 +21,19 @@ public class Billboard : MonoBehaviour {
 	/// <summary> Speed of rotation along the z axis. </summary>
 	public float zRotationSpeed = 0;
 
+	/// <summary> Randomize for z-rotation on start</summary>
+	public BMM randomizeZRotation;
 	/// <summary> Current rotation on the z-axis.</summary>
-	float zRotation = 0;
+	public float zRotation = 0;
 
+	/// <summary> Should billboard happen on Update or LateUpdate? </summary>
 	public bool doLate = false;
+
+	void Start() {
+		if (randomizeZRotation.flag) {
+			zRotation = randomizeZRotation.value;
+		}
+	}
 
 	void Update() {
 		if (!doLate) { DoBillboard(); }
