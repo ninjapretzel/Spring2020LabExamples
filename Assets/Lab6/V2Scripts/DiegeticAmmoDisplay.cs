@@ -32,11 +32,11 @@ namespace Lab6 {
 				// Create a new material to avoid clobbering...
 				if (info.mat == null) {
 					info.mat = new Material(tgt.sharedMaterials[info.materialIndex]); 
-					tgt.sharedMaterials[info.materialIndex] = info.mat;
+					tgt.materials[info.materialIndex] = info.mat;
 				}
 
 				int digit = ammo % 10;
-				tgt.sharedMaterials[info.materialIndex].mainTexture = digitTextures[digit];
+				tgt.materials[info.materialIndex].mainTexture = digitTextures[digit];
 				ammo /= 10;
 			}
 		}
