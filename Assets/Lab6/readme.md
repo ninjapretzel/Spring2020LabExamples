@@ -1,7 +1,7 @@
 ﻿# Lab6
 ### V1
 ##### (Version with an implementation of base requirements)
-For this one, I didn't do achievables. There are 3 cannons, move ther mouse to aim, and left click anywhere to fire one of them. The other two will autofire.
+For this one, I didn't do achievables. There are 3 cannons, move the mouse to aim, and left click anywhere to fire one of them. The other two will autofire.
 If you left click anything solid, it will create a wandering orb where you clicked.
 
 ### V2
