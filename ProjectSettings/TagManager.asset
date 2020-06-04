@@ -35,8 +35,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Player
+  - Viewmodel
   - 
   m_SortingLayers:
   - name: Default

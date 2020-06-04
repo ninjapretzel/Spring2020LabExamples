@@ -17,6 +17,19 @@ namespace Lab6 {
 		public Vector3 maxRotation = new Vector3(0, 0, 80);
 		/// <summary> How quickly the rotation responds to mouse movement </summary>
 		public float rotationResponse = 5;
+
+		/// <summary> Should this cannon autofire, or shoot with inputs? </summary>
+		public bool autofire = true;
+		/// <summary> Time before first shot in autofire mode </summary>
+		public float fireWait = 2.0f;
+		/// <summary> Time between shots in autofire mode </summary>
+		public float fireDelay = .3f;
+		
+		void Start() {
+			if (autofire) {
+				InvokeRepeating(nameof(Shoot), fireWait, fireDelay);
+			}
+		}
 	
 		void Update() {
 			// Get the mouse x position, and turn it into a percentage
@@ -30,17 +43,20 @@ namespace Lab6 {
 			// Ease the pivot rotation towards the target
 			pivot.rotation = Quaternion.Lerp(pivot.rotation, rotation, Time.deltaTime * rotationResponse);
 
-			// When mouse is clicked
-			if (Input.GetMouseButtonDown(0)) {
-				// Instantiate a new cannonball
-				Rigidbody rb = Instantiate(cannonball, source.position, Random.rotation);
-				// and push it forward with the direction of the cannon source.
-				rb.AddForce(force * source.forward, ForceMode.Impulse);
-
-				// Also destroy it after some time (so we don't have too many cannonballs everywhere)
-				Destroy(rb.gameObject, 10);
+			// if not in autofire mode and mouse is clicked, shoot
+			if (!autofire && Input.GetMouseButtonDown(0)) {
+				Shoot();
 			}
 		}
-	
+
+		void Shoot() {
+			// Instantiate a new cannonball
+			Rigidbody rb = Instantiate(cannonball, source.position, Random.rotation);
+			// and push it forward with the direction of the cannon source.
+			rb.AddForce(force * source.forward, ForceMode.Impulse);
+
+			// Also destroy it after some time (so we don't have too many cannonballs everywhere)
+			Destroy(rb.gameObject, 10);
+		}
 	}
 }
