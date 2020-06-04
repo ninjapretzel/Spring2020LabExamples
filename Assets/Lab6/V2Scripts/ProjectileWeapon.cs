@@ -95,7 +95,7 @@ namespace Lab6 {
 		/// <summary> Abstract weapon kick property </summary>
 		public override float kick { get { return kickAmount; } }
 		/// <summary> Abstract weapon ready property </summary>
-		public override bool isReady { get { return refireTimeout < Mathf.Min(holdFireTime, tapFireTime); } }
+		public override bool isReady { get { return refireTimeout > Mathf.Min(holdFireTime, tapFireTime); } }
 		/// <summary> Abstract weapon percent ready property </summary>
 		public override float percentReady { get { return refireTimeout / Mathf.Min(holdFireTime, tapFireTime); } }
 
@@ -103,10 +103,13 @@ namespace Lab6 {
 		SoundCue snd;
 		/// <summary> Original volume of sound </summary>
 		float sndVolume;
+		/// <summary> Was the weapon just drawn? </summary>
+		bool justDrawn;
 		
 		void Awake() {
 			snd = GetComponent<SoundCue>();
 			refireTimeout = tapFireTime - .01f;
+			justDrawn = true;
 		}
 		
 		new void Update() {
@@ -114,10 +117,12 @@ namespace Lab6 {
 
 			if (!firing) {
 				if (refireTimeout < Mathf.Max(tapFireTime, holdFireTime)) {
+					bool wasReady = isReady;
 					refireTimeout += Time.deltaTime;
-					if (refireTimeout > Mathf.Max(tapFireTime, holdFireTime)) {
+					if (!justDrawn && !wasReady && isReady) {
 						onReadyToFireEvent?.Invoke();
 					}
+					if (isReady) { justDrawn = false; }
 				}
 				if ((trigger && refireTimeout >= holdFireTime) || (justTrigger && refireTimeout >= tapFireTime)) {
 					if (hasAmmoToFire) {
