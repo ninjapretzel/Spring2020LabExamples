@@ -46,8 +46,8 @@ MonoBehaviour:
   drawDebug: 0
   faceAlongVelocity: 0
   useChronos: 0
-  maxDistance: 9001
-  minBounceAngle: -1
+  maxDistance: 90001
+  minBounceAngle: 33
   restitution: 0.98
   gravity: 111
   radius: 0.01
@@ -58,7 +58,7 @@ MonoBehaviour:
   killVelocity: 0.1
   minStepVelocity: -1
   maxTime: 5
-  maxBounces: 1
+  maxBounces: 3
   damage: 1
   decalTime: 4
   decal: {fileID: 6208781214484441255, guid: 585350c1368f42742bee3b93989e1af9, type: 3}

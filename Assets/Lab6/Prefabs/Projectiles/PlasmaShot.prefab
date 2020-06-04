@@ -213,7 +213,7 @@ MonoBehaviour:
   radius: 0.01
   proxy: 0.01
   force: 5
-  mass: 0.1
+  mass: 0.08
   ignoreSourceRadius: 0
   killVelocity: 0.1
   minStepVelocity: -1
@@ -425,4 +425,9 @@ MonoBehaviour:
   matchRotationMode: 0
   flip: 1
   zRotationSpeed: 0
+  randomizeZRotation:
+    flag: 0
+    min: 0.9
+    max: 1.1
+  zRotation: 0
   doLate: 1

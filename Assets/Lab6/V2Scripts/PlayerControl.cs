@@ -253,8 +253,9 @@ namespace Lab6 {
 
 			ammoBox = new Dictionary<string, float>();
 			// Ammo for demo....
-			ammoBox["energy"] = 10000;
+			ammoBox["energy"] = 100000;
 			ammoBox["556"] = 100000;
+			ammoBox["shells"] = 100000;
 
 		}
 	

@@ -2,12 +2,25 @@ using UnityEngine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Events;
 
 namespace Lab6 {
 	/// <summary> Abstract weapon type. </summary>
 	/// <remarks> From the same game as <see cref="ViewModel"/> was. 
 	/// Similarly, slightly modified it to disconnect it from the game it is from. </remarks>
 	public abstract class AWeapon : MonoBehaviour {
+
+		/// <summary> Class to hold <see cref="UnityEvent"/>s used for reload callbacks </summary>
+		[Serializable] public class ReloadEvents {
+			/// <summary> Callback for when the weapon begins reloading. </summary>
+			public UnityEvent onReloadStart;
+			/// <summary> Callback for when the weapon reload ticks. </summary>
+			public UnityEvent onReloadTick;
+			/// <summary> Callback for when the weapon finishes reloading (last tick happened). </summary>
+			public UnityEvent onReloadEnd;
+			/// <summary> Callback for when the weapon reload is interrupted. </summary>
+			public UnityEvent onReloadInterrupted;
+		}
 
 		/// <summary> Private field for trigger held. </summary>
 		private bool _trigger;
@@ -51,6 +64,9 @@ namespace Lab6 {
 		[Tooltip("Can the weapon's reload be interrupted after it has been started?")]
 		public bool canInterruptReload = false;
 		
+		/// <summary> Reload events folder </summary>
+		public ReloadEvents reloadEvents;
+		
 		/// <summary> Current reload timeout </summary>
 		[NonSerialized] public float reloadTimeout = 0;
 
@@ -65,7 +81,7 @@ namespace Lab6 {
 
 		/// <summary> Current ammo in magazine, or ammoBox, if magizine is disabled. </summary>
 		public bool hasAmmoInMag { get { return magSize <= 0 || ammoInMag >= ammoUse; } }
-
+		
 		/// <summary> How much does the weapon kick (recoil) when fired? </summary>
 		public virtual float kick { get { return 3f; } }
 		/// <summary> Did the weapon fire last frame? </summary>
@@ -75,15 +91,17 @@ namespace Lab6 {
 		/// <summary> Is the weapon currently ready to fire? </summary>
 		public virtual bool isReady { get; }
 
-
+		/// <summary> Transform that owns this weapon </summary>
 		public Transform owner { get; set; }
 
+		/// <summary> Is there ammo present to fire? </summary>
 		public bool hasAmmoToFire {
 			get {
 				if (magSize > 0) { return hasAmmoInMag; }
 				return ammoInBox >= ammoUse;
 			}
 		}
+		/// <summary> Did the trigger just get pressed this frame? </summary>
 		public bool justTrigger { get; protected set; }
 		
 		/// <summary> Default Update for any weapons. </summary>
@@ -97,19 +115,23 @@ namespace Lab6 {
 						reloadTimeout -= reloadStartTime;
 						if (reloadPerTick > 0) {
 							reloadTicking = true;
+							reloadEvents.onReloadTick.Invoke();
 						} else {
+							reloadEvents.onReloadEnd.Invoke();
 							reloading = false;
 							reloadTicking = false;
 						}
-						ReloadMag();
+						ReloadMag(reloadPerTick);
 					}
 				} else {
 					if (reloadTimeout > reloadTickTime) {
 						reloadTimeout -= reloadTickTime;
-						ReloadMag();
+						ReloadMag(reloadPerTick);
+						reloadEvents.onReloadTick.Invoke();
 						if (ammoInBox <= 0 || ammoInMag >= magSize) {
 							reloading = false;
 							reloadTicking = false;
+							reloadEvents.onReloadEnd.Invoke();
 						}
 					}
 				}
@@ -135,6 +157,7 @@ namespace Lab6 {
 				reloading = true;
 				reloadTicking = false;
 				reloadTimeout = 0;
+				reloadEvents.onReloadStart.Invoke();
 			}
 		}
 
@@ -166,9 +189,9 @@ namespace Lab6 {
 				if (canInterruptReload || reloadTicking) {
 					reloading = false;
 					reloadTicking = false;
+					reloadEvents.onReloadInterrupted.Invoke();
 					return true;
 				}
-				return false;
 			}
 			return true;
 		}
