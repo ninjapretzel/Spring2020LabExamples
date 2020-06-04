@@ -32,6 +32,9 @@ The projectiles you shoot bounce around, and create an effect anywhere they touc
 
 I the textures for the particle effects and other VFX (such as the plasma-bolt at the front of the rifle) I made myself, using a free program called `Paint.Net`. The sources (`.pdn` files) for the ones I made just for this example are included, while some of the others I brought in from previous projects.
 
+The exception is the sparks, I downloaded them from `OpenGameArt`.
+(and obviously the models are also from elsewhere, in that case "The Models Resource" at https://www.models-resource.com/ )
+
 The weapon is set up as a set of prefabs:
 - `PlasmaRifle`: Holds `ViewModel` and `ProjectileWeapon` scripts, and a few effects.
 	- The "Fire is cool!" achievable is done by using a `UnityEvent` to tell a particle system to emit projectiles
