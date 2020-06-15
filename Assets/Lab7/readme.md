@@ -1,4 +1,4 @@
-# Lab6
+# Lab7
 ### V1
 ##### (Version with an implementation of base requirements)
 For this one, I didn't do achievables. There are is a small scene set up with cubes and spheres. 
