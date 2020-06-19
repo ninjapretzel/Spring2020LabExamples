@@ -42,25 +42,27 @@ namespace Lab11 {
 		/// <para> If any <see cref="BTNode.Result.Failure"/>s occur, it tries to execute the next node in sequence, and only propagates the failure if out of children nodes. </para> </summary>
 		/// <returns> Result of execution. </returns>
 		public override Result Execute() {
-			// We may need to continuously execute children... 
+			// I loop so that any children that fail immediately don't delay
+			// the next child until the next frame... 
 			while (currentNode < children.Count) {
 				// Try to execute child node...
 				Result result = children[currentNode].Execute();
 
-				// If the child node is running, propagate the running state..
+				// If it's still running, propagate the running state and resume it next time.
 				if (result == Result.Running) { return result; }
 
 				// If the child node is successful, reset the selector and propagate the success state.
 				if (result == Result.Success) { currentNode = 0; return result; }
 
-				// If it's failed, move to next node.
-				if (result == Result.Failure) { currentNode++; continue; }
+				// Otherwise child failed, move to next.
+				currentNode++;
 
 			}
-			// If we get down here, that is only because all children failed.
-			// Report the failure out. 
+			// If we get down here, we're finished. Reset the selector and return failure.
+			currentNode = 0;
 			return Result.Failure;
 		}
+
 	}
 
 	/// <summary> Node to hold logic for repeating execution, but stopping when a child reports failure </summary>
@@ -71,5 +73,6 @@ namespace Lab11 {
 		/// <summary> Always return <see cref="BTNode.Result.Failure"/></summary>
 		/// <returns> Always <see cref="BTNode.Result.Failure"/>. </returns>
 		public override Result Execute() { return Result.Failure; }
+
 	}
 }

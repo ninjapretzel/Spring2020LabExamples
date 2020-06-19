@@ -61,31 +61,31 @@ namespace Lab11 {
 		/// <summary> Current position in sequence </summary>
 		/// <remarks> Marked with <see cref="UnityEngine.SerializeField"/> attribute to allow unity to serialize this private field. </remarks>
 		[SerializeField] private int currentNode = 0;
+
 		/// <summary> Empty constructor. Used to make unity complain less. </summary>
 		public BTSequencerNode() { }
 		/// <summary> Constructor that sets an attached tree, and provides children node. </summary>
 		/// <param name="t"> Tree to attach to </param>
 		/// <param name="child"> All child <see cref="BTNode"/>s. </param>
 		public BTSequencerNode(BehaviourTree t, params BTNode[] children) : base (t, children) { }
+
 		/// <summary> Execute next child, and return its result. </summary>
 		/// <returns> Execution state of next child. </returns>
 		public override Result Execute() {
-			if (currentNode < children.Count) {
+			// I loop so that any children that succeed immediately don't delay
+			// the next child until the next frame... 
+			while (currentNode < children.Count) {
 				// Try to execute child node...
 				Result result = children[currentNode].Execute();
 
-				// If it's still running, resume it next time.
+				// If it's still running, propagate the running state and resume it next time.
 				if (result == Result.Running) { return result; }
-				// If it failed, reset the sequence and return failure.
+
+				// If the child node failed, reset the sequence and propagate the failure state.
 				if (result == Result.Failure) { currentNode = 0; return result; }
 
 				// Otherwise child succeeded, move to next.
 				currentNode++;
-				// and if it was not the last one, 
-				// move to the next one on the next call
-				if (currentNode < children.Count) {
-					return Result.Running;
-				}
 
 			}
 			// If we get down here, we're finished. Reset the sequence and return success. 
@@ -111,6 +111,7 @@ namespace Lab11 {
 			child.Execute();
 			return Result.Running;
 		}
+
 	}
 
 	/// <summary> Behaviour tree node representing a random walk behaviour segment </summary>
