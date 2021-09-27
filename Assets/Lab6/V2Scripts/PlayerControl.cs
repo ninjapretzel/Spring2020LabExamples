@@ -586,7 +586,10 @@ namespace Lab6 {
 			//		lookInputs = rightStick;
 			//	}
 			// }
-			lookInputs += mouse;
+
+			if (Cursor.lockState == CursorLockMode.Locked) {
+				lookInputs += mouse;
+			}
 
 			// Inversion (disabled)
 			// if (GlobalSettings.invertX) {
@@ -596,11 +599,12 @@ namespace Lab6 {
 			//	lookInputs = new Vector2(lookInputs.x, -lookInputs.y);
 			// }
 
-#if UNITY_EDITOR || UNITY_STANDALONE
-			if (!IS_PLAYER || Cursor.lockState == CursorLockMode.Locked) {
+			if (!IS_PLAYER || (IS_PLAYER && Cursor.lockState == CursorLockMode.Locked)) {
 				state.pitch += lookInputs.y * -settings.sensitivity.y;// * GlobalSettings.sensitivityY;
 				state.yaw += lookInputs.x * settings.sensitivity.x;// * GlobalSettings.sensitivityX;
 			}
+			
+#if UNITY_EDITOR || UNITY_STANDALONE
 #else
 		state.pitch += lookInputs.y * -settings.sensitivity.y;// * GlobalSettings.sensitivityY;
 		state.yaw += lookInputs.x * settings.sensitivity.x;// * GlobalSettings.sensitivityX;
